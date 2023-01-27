@@ -69,7 +69,7 @@ hr {
     align-items: flex-start;
     padding: 0px;
     gap: 14px;
-    padding: 68px 37px 32px 37px;
+    padding: 50px 37px 32px 37px;
     overflow: scroll;
 }
 
@@ -189,7 +189,7 @@ hr {
 }
 
 #add_button {
-    position: absolute;
+    position: fixed;
     width: 48px;
     height: 48px;
     right: 8px;
