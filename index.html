@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eli's Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- "Now" section -->
+    <div class="now">
+        <div class="now_temp">
+            <div class="location_temp">
+                <p>Philadelphia, PA</p>
+                <h1>72°</h1>
+                <p>H: 78° L: 61°</p>
+            </div>
+            <div class="conditions">
+                <img id="main_icon" src="img/partly-cloudy.png" alt="Partly Cloudy">
+                <p>Partly Cloudy</p>
+                <p>Feels like 73°</p>
+            </div>
+        </div>
+        <p>The sun will be sticking around, no need for that umbrella today.</p>
+    </div>
+    <!-- "Later" section -->
+    <div class="later">
+        <div id="grabber"></div>
+        <div id="hourly">
+            <div class="hourly_icon">
+                <img src="img/partly-cloudy_icon.png" alt="Partly Cloudy">
+                <p>72°</p>
+                <p>12pm</p>
+            </div>
+            <div class="hourly_icon">
+                <img src="img/sunny_icon.png" alt="sunny">
+                <p>78°</p>
+                <p>3pm</p>
+            </div>
+            <div class="hourly_icon">
+                <img src="img/partly-cloudy_icon.png" alt="Partly Cloudy">
+                <p>73°</p>
+                <p>6pm</p>
+            </div>
+            <div class="hourly_icon">
+                <img src="img/cloudy-night_icon.png" alt="cloudy">
+                <p>69°</p>
+                <p>9pm</p>
+            </div>
+        </div>
+        <hr>
+        <div class="daily">
+            <div class="daily_icon">
+                <p class="day">Today</p>
+                <img src="img/partly-cloudy_icon.png" alt="Partly Cloudy">
+                <p>H: 78°</p>
+                <p>L: 61°</p>
+            </div>
+            <div class="daily_icon">
+                <p class="day">Mon</p>
+                <img src="img/sunny_icon.png" alt="sunny">
+                <p>H: 81°</p>
+                <p>L: 68°</p>
+            </div>
+            <div class="daily_icon">
+                <p class="day">Tue</p>
+                <img src="img/cloudy_icon.png" alt="Cloudy">
+                <p>H: 67°</p>
+                <p>L: 54°</p>
+            </div>
+            <div class="daily_icon">
+                <p class="day">Wed</p>
+                <img src="img/rain_icon.png" alt="rainy">
+                <p>H: 79°</p>
+                <p>L: 71°</p>
+            </div>
+            <div class="daily_icon">
+                <p class="day">Thur</p>
+                <img src="img/partly-cloudy_icon.png" alt="Partly Cloudy">
+                <p>H: 84°</p>
+                <p>L: 68°</p>
+            </div>
+            <div class="daily_icon">
+                <p class="day">Fri</p>
+                <img src="img/partly-cloudy_icon.png" alt="Partly Cloudy">
+                <p>H: 79°</p>
+                <p>L: 68°</p>
+            </div>
+            <div class="daily_icon">
+                <p class="day">Sat</p>
+                <img src="img/partly-cloudy_icon.png" alt="Partly Cloudy">
+                <p>H: 79°</p>
+                <p>L: 68°</p>
+            </div>
+            <div class="daily_icon">
+                <p class="day">Sun</p>
+                <img src="img/rain_icon.png" alt="rain">
+                <p>H: 79°</p>
+                <p>L: 68°</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_locations">
+            <p id="selected">Philly</p>
+            <p>New York</p>
+            <p>Paris</p>
+            <p>London</p>
+            <p>Los Angeles</p>
+        </div>
+    </footer>
+    <div id="add_button">
+        <img style="padding: 8px; width: 32px;" src="img/plus_icon.png" alt="add">
+    </div>
+</body>
+</html>
